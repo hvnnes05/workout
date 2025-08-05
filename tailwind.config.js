@@ -6,9 +6,8 @@ export default {
       fontFamily: {
         heading: ['DM Sans', 'sans-serif'],
         sans: ['DM Sans', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],
-}
-
+};
