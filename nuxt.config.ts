@@ -4,16 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@vite-pwa/nuxt',
   ],
-  pwa: {
-    manifest: {
-      name: 'Workout-Planner',
-      lang: 'de',
-      start_url: 'https://workout-seven-peach.vercel.app',
-      display: 'standalone',
-      background_color: '#ffffff',
-      theme_color: '#000000',
-    },
-  },
+  app:{
+    head: {
+      link: [
+        { rel: 'manifest', href: '/manifest.json' }
+      ]
+  }
+},
 })
