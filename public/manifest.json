@@ -1,9 +1,8 @@
 {
-    "name": "Workout-Planner",
-    "short_name": "Workout-Planner",
-    "start_url": "https://workout-seven-peach.vercel.app/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000"
-  }
-  
+  "name": "Workout-Planner",
+  "short_name": "Workout-Planner",
+  "start_url": "https://workout-seven-peach.vercel.app/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
