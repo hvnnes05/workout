@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    @apply font-sans;
+    @apply font-sans text-sm;
   }
   h1 {
     @apply text-4xl font-black font-heading uppercase;
